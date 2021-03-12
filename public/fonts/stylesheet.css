@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'HandleGothicBT';
+    src: url('HandleGothicBT.eot');
+    src: url('HandleGothicBT.eot?#iefix') format('embedded-opentype'),
+        url('HandleGothicBT.woff2') format('woff2'),
+        url('HandleGothicBT.woff') format('woff'),
+        url('HandleGothicBT.ttf') format('truetype'),
+        url('HandleGothicBT.svg#HandleGothicBT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua Titling MT';
+    src: url('PerpetuaTitlingMT-Bold.eot');
+    src: url('PerpetuaTitlingMT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PerpetuaTitlingMT-Bold.woff2') format('woff2'),
+        url('PerpetuaTitlingMT-Bold.woff') format('woff'),
+        url('PerpetuaTitlingMT-Bold.ttf') format('truetype'),
+        url('PerpetuaTitlingMT-Bold.svg#PerpetuaTitlingMT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua Titling MT';
+    src: url('PerpetuaTitlingMT-Light.eot');
+    src: url('PerpetuaTitlingMT-Light.eot?#iefix') format('embedded-opentype'),
+        url('PerpetuaTitlingMT-Light.woff2') format('woff2'),
+        url('PerpetuaTitlingMT-Light.woff') format('woff'),
+        url('PerpetuaTitlingMT-Light.ttf') format('truetype'),
+        url('PerpetuaTitlingMT-Light.svg#PerpetuaTitlingMT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bookman Old Style';
+    src: url('BookmanOldStyle.eot');
+    src: url('BookmanOldStyle.eot?#iefix') format('embedded-opentype'),
+        url('BookmanOldStyle.woff2') format('woff2'),
+        url('BookmanOldStyle.woff') format('woff'),
+        url('BookmanOldStyle.ttf') format('truetype'),
+        url('BookmanOldStyle.svg#BookmanOldStyle') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

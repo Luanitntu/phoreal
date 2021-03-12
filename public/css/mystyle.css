@@ -1,0 +1,739 @@
+@font-face {
+    font-family: 'HandleGothicBT';
+    src: url("../fonts/HandleGothicBT.eot");
+    src: url("../fonts/HandleGothicBT.eot?#iefix") format("embedded-opentype"), url("../fonts/HandleGothicBT.woff2") format("woff2"), url("../fonts/HandleGothicBT.woff") format("woff"), url("../fonts/HandleGothicBT.ttf") format("truetype"), url("../fonts/HandleGothicBT.svg#HandleGothicBT") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua Titling MT';
+  src: url("../fonts/PerpetuaTitlingMT-Bold.eot");
+  src: url("../fonts/PerpetuaTitlingMT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/PerpetuaTitlingMT-Bold.woff2") format("woff2"), url("../fonts/PerpetuaTitlingMT-Bold.woff") format("woff"), url("../fonts/PerpetuaTitlingMT-Bold.ttf") format("truetype"), url("../fonts/PerpetuaTitlingMT-Bold.svg#PerpetuaTitlingMT-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Perpetua Titling MT';
+  src: url("../fonts/PerpetuaTitlingMT-Light.eot");
+  src: url("../fonts/PerpetuaTitlingMT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/PerpetuaTitlingMT-Light.woff2") format("woff2"), url("../fonts/PerpetuaTitlingMT-Light.woff") format("woff"), url("../fonts/PerpetuaTitlingMT-Light.ttf") format("truetype"), url("../fonts/PerpetuaTitlingMT-Light.svg#PerpetuaTitlingMT-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bookman Old Style';
+  src: url("../fonts/BookmanOldStyle.eot");
+  src: url("../fonts/BookmanOldStyle.eot?#iefix") format("embedded-opentype"), url("../fonts/BookmanOldStyle.woff2") format("woff2"), url("../fonts/BookmanOldStyle.woff") format("woff"), url("../fonts/BookmanOldStyle.ttf") format("truetype"), url("../fonts/BookmanOldStyle.svg#BookmanOldStyle") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@media (min-width: 1200px) {
+    .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+        max-width: 1430px;
+    }
+}
+
+body {
+    background-color: #f7f6f3;
+}
+
+#header-page .sticky .header__page {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#header-page .sticky .header__page .header__page--button {
+    display: none;
+}
+
+#header-page .sticky .header__page .header__page--logo {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#header-page .sticky .header__page .header__page--logo img {
+    width: unset;
+}
+
+#header-page .sticky .header__page .header__page--main {
+    position: relative;
+    left: 53%;
+    transform: translateX(-50%);
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li {
+    margin-right: 100px;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li a {
+    font-size: 28px;
+    font-family: "HandleGothicBT";
+    color: #181818;
+    line-height: 1.978;
+    text-decoration: none;
+    position: relative;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li a:before {
+    content: '';
+    width: 0px;
+    height: 2px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #0a6934;
+    position: absolute;
+    transition: width .3s ease-in-out;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li a:hover:before {
+    width: 30px;
+    transition: width .3s ease-in-out;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(2) {
+    margin-right: 135px;
+}
+
+#header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(3) {
+    margin-left: 135px;
+}
+
+#header-page .banner-slide {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+#header-page .banner-slide .sologan {
+    width: 24%;
+    position: relative;
+    display: inline-block;
+}
+
+#header-page .banner-slide .sologan img {
+    position: relative;
+    left: 70px;
+    top: -37px;
+}
+
+#header-page .banner-slide .flexslider {
+    width: 76%;
+    margin-bottom: 0;
+}
+
+#header-page .banner-slide .flexslider .text-slide {
+    position: absolute;
+    top: 50%;
+    left: -204px;
+    transform: translateY(-50%);
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text {
+    background: rgba(219, 38, 45, 0.55);
+    padding: 50px 20px 50px 50px;
+    position: relative;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text:before {
+    content: '';
+    width: 204px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #db262d;
+    position: absolute;
+    z-index: -1;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text p {
+    font-size: 69px;
+    font-family: "Perpetua Titling MT";
+    color: #ffffff;
+    line-height: 1.267;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text p span {
+    font-weight: bold;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order a {
+    font-size: 22px;
+    font-family: "HandleGothicBT";
+    color: #ffffff;
+    line-height: 2.517;
+    background: #0f7d40;
+    border: 2px solid #ffffff;
+    margin: 0;
+    text-decoration: none;
+    padding: 5px 30px 5px 74px;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order a:before {
+    content: '';
+    width: 59px;
+    height: 59px;
+    top: 3px;
+    left: 3px;
+    background: url("../images/order-now.jpg") no-repeat;
+    position: absolute;
+}
+
+#header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order a:hover {
+    background: #0a6934;
+    transition: all .3s ease-in-out;
+}
+
+#page-home {
+    margin-top: 40px;
+}
+
+#page-home .about_phoreal .wrap__about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--left {
+    width: 42.42857%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: -115px;
+    z-index: 2;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 25px 0 15px;
+    -webkit-box-shadow: 2px 2px 14px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 2px 2px 14px 5px rgba(0, 0, 0, 0.22);
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item h4 {
+    font-size: 25px;
+    font-family: "Perpetua Titling MT";
+    color: #414141;
+    font-weight: bold;
+    line-height: 1.32;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item p {
+    font-size: 25px;
+    font-family: "Perpetua Titling MT";
+    color: #414141;
+    line-height: 1.32;
+    margin-bottom: 5px;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right {
+    width: 57.14286%;
+    padding-left: 95px;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right h2 {
+    font-size: 57px;
+    font-family: "Perpetua Titling MT";
+    color: #181818;
+    line-height: 0.842;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right h2:before {
+    content: '';
+    width: 72px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #0f7d40;
+    position: absolute;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 1.684;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right .homemade {
+    padding-left: 22px;
+    position: relative;
+    display: inline-block;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right .homemade::before {
+    content: '';
+    width: 79%;
+    height: 79%;
+    top: 27px;
+    left: 0;
+    border: 1px solid #181818;
+    position: absolute;
+    z-index: -1;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right .homemade h4 {
+    font-size: 33px;
+    font-family: "HandleGothicBT";
+    color: #181818;
+    line-height: 1.678;
+    margin-bottom: 0;
+    background: #f7f6f3;
+    padding-left: 13px;
+}
+
+#page-home .about_phoreal .wrap__about .wrap_about--right .homemade p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 2;
+    padding-left: 13px;
+}
+
+#page-home .slide_phoreal {
+    margin-left: 260px;
+    margin-top: -135px;
+    position: relative;
+}
+
+#page-home .slide_phoreal:before {
+    content: '';
+    width: 115.8%;
+    height: 138px;
+    bottom: 130px;
+    left: -260px;
+    background: url("../images/before_menu_slide.png") no-repeat;
+    position: absolute;
+}
+
+#page-home .slide_phoreal .wrap__slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left {
+    width: 35.42857%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    padding-right: 75px;
+    margin-top: 125px;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content h2 {
+    font-size: 57px;
+    font-family: "Perpetua Titling MT";
+    color: #db262d;
+    line-height: 0.842;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content h2:before {
+    content: '';
+    width: 72px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #db262d;
+    position: absolute;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 1.684;
+    margin-bottom: 50px;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content a {
+    font-size: 22px;
+    font-family: "HandleGothicBT";
+    color: #ffffff;
+    line-height: 2.517;
+    text-decoration: none;
+    background: #db262d;
+    padding: 20px 20px 20px 80px;
+    position: relative;
+    margin-top: 48px;
+    transition: all .3s ease-in-out;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content a:hover {
+    transition: all .3s ease-in-out;
+    background: #be1c22;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content a:before {
+    content: '';
+    width: 59px;
+    height: 59px;
+    top: 2px;
+    left: 2px;
+    background: url("../images/view-menu.jpg") no-repeat;
+    position: absolute;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--right {
+    width: 64.38%;
+    height: 971px;
+}
+
+#page-home .slide_phoreal .wrap__slide .wrap__slide--right .slide__right--nextSlide {
+    width: 100%;
+    height: 100%;
+}
+
+#page-home .slide_phoreal .wrap__menu {
+    position: absolute;
+    width: 100%;
+    bottom: 55px;
+}
+
+#page-home .slide_phoreal .wrap__menu .wrap__menu--slide {
+    user-select: all;
+    max-width: 64%;
+}
+
+#page-home .slide_phoreal .wrap__menu .wrap__menu--slide .menu__slide--item {
+    margin-right: 20px;
+}
+
+#page-home .slide_phoreal .wrap__menu .wrap__menu--slide .menu__slide--item h4 {
+    font-size: 26px;
+    font-family: "Perpetua Titling MT";
+    color: #db262d;
+    line-height: 1.846;
+    text-align: center;
+    background: #ffffff;
+    padding: 10px 0;
+}
+
+#page-home .slide_phoreal .wrap__menu .wrap__menu--slide .slick-slide img {
+    width: 100%;
+}
+
+#page-home .slide_phoreal .wrap__menu .btn_slick {
+    position: absolute;
+    right: 400px;
+    bottom: 33px;
+}
+
+#page-home .slide_phoreal .wrap__menu .btn_slick a {
+    display: inline-block;
+    width: 82px;
+    height: 29px;
+    position: relative;
+    cursor: pointer;
+}
+
+#page-home .slide_phoreal .wrap__menu .btn_slick a.btn_prev {
+    margin-right: 25px;
+}
+
+#page-home .slide_phoreal .wrap__menu .btn_slick a.btn_prev:before {
+    content: '';
+    width: 82px;
+    height: 29px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+    background: url("../images/btn-prev.png") no-repeat;
+    position: absolute;
+}
+
+#page-home .slide_phoreal .wrap__menu .btn_slick a.btn_next:before {
+    content: '';
+    width: 82px;
+    height: 29px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%, -50%);
+    background: url("../images/btn-next.png") no-repeat;
+    position: absolute;
+}
+
+#page-home .call_phoreal {
+    background: url("../images/paralax-call-us.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-top: 80px;
+    position: relative;
+}
+
+#page-home .call_phoreal:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+}
+
+#page-home .call_phoreal .call__title {
+    padding: 85px 0;
+    text-align: center;
+}
+
+#page-home .call_phoreal .call__title h2 {
+    font-size: 50px;
+    font-family: "Perpetua Titling MT";
+    color: #f7f6f3;
+    line-height: 0.96;
+    margin-bottom: 0;
+    letter-spacing: 15px;
+}
+
+#page-home .contact_phoreal {
+    margin-top: 80px;
+}
+
+#page-home .contact_phoreal .wrap__contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left {
+    width: 40%;
+    padding-right: 60px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title {
+    position: relative;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title:before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    bottom: -10px;
+    left: 0;
+    background: #0f7d40;
+    position: absolute;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title h3 {
+    font-size: 50px;
+    font-family: "HandleGothicBT";
+    color: #181818;
+    line-height: 0.96;
+    margin-bottom: 5px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title p {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #181818;
+    text-transform: uppercase;
+    line-height: 2.2;
+    letter-spacing: 10px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--phone h4 {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #181818;
+    text-transform: uppercase;
+    line-height: 1.95;
+    margin-bottom: 0;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--phone a {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 1.842;
+    text-decoration: none;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul li:not(:last-child) {
+    margin-right: 20px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul li a {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #606060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: #606060;
+    transition: all .3s ease-in-out;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul li a:hover {
+    border: 1px solid #be1c22;
+    background: #be1c22;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__mid {
+    width: 30%;
+    padding-right: 50px;
+    padding-left: 40px;
+    margin-bottom: -55px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__mid h4 {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #181818;
+    text-transform: uppercase;
+    line-height: 1.55;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__mid p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #606060;
+    line-height: 1.842;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__right {
+    width: 30%;
+    margin-bottom: -38px;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__right h4 {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #181818;
+    text-transform: uppercase;
+    line-height: 1.55;
+}
+
+#page-home .contact_phoreal .wrap__contact .contact__right p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #606060;
+    line-height: 1.842;
+    margin-bottom: 0;
+}
+
+#footer {
+    margin-top: 100px;
+}
+
+#footer .footer__pralax {
+    background: url("../images/paralax-call-us.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin-top: 80px;
+    position: relative;
+}
+
+#footer .footer__pralax:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+}
+
+#footer .footer__pralax .call__title {
+    padding: 85px 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+#footer .footer__pralax .call__title h2 {
+    font-size: 50px;
+    font-family: "Perpetua Titling MT";
+    color: #f7f6f3;
+    line-height: 0.96;
+    margin-bottom: 0;
+    letter-spacing: 15px;
+}
+
+#footer .footer__create {
+    background: #231f20;
+    padding: 31px 0;
+}
+
+#footer .footer__create p,
+    #footer .footer__create a {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Bookman Old Style";
+    color: #898989;
+    line-height: 1.944;
+    text-decoration: none;
+}

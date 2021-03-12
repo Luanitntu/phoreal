@@ -1,0 +1,149 @@
+#header-page {
+    .sticky {
+        .header__page {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 60px;
+            .header__page--button {
+                display: none;
+            }
+            .header__page--logo {
+                display: inline-block;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                img {
+                    width: unset;
+                }
+            }
+            .header__page--main {
+                // min-width: 976px;
+                position: relative;
+                left: 53%;
+                transform: translateX(-50%);
+                .navbar-sticky {
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        flex-direction: row;
+                        li {
+                            margin-right: 100px;
+                            a {
+                                font-size: 28px;
+                                font-family: "HandleGothicBT";
+                                color: #181818;
+                                line-height: 1.978;
+                                text-decoration: none;
+                                position: relative;
+                                &:before {
+                                    content: '';
+                                    width: 0px;
+                                    height: 2px;
+                                    bottom: -20px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    background: #0a6934;
+                                    position: absolute;
+                                    transition: width .3s ease-in-out;
+                                }
+                                &:hover:before {
+                                    width: 30px;
+                                    transition: width .3s ease-in-out;
+                                }
+                            }
+                            &:nth-child(2) {
+                                margin-right: 135px;
+                            }
+                            &:nth-child(3) {
+                                margin-left: 135px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner-slide {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        .sologan {
+            width: 24%;
+            position: relative;
+            display: inline-block;
+            img {
+                position: relative;
+                left: 70px;
+                top: -37px;
+            }
+        }
+        .flexslider {
+            width: 76%;
+            margin-bottom: 0;
+            .text-slide {
+                position: absolute;
+                top: 50%;
+                left: -204px;
+                transform: translateY(-50%);
+                .wrap_text {
+                    background: rgba(219, 38, 45, 0.55);
+                    padding: 50px 20px 50px 50px;
+                    position: relative;
+                    &:before {
+                        content: '';
+                        width: 204px;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        background: #db262d;
+                        position: absolute;
+                        z-index: -1;
+                    }
+                    p {
+                        font-size: 69px;
+                        font-family: "Perpetua Titling MT";
+                        color: #ffffff;
+                        line-height: 1.267;
+                        span {
+                            font-weight: bold;
+                        }
+                    }
+                    .btn_order {
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        a {
+                            font-size: 22px;
+                            font-family: "HandleGothicBT";
+                            color: #ffffff;
+                            line-height: 2.517;
+                            background: #0f7d40;
+                            border: 2px solid #ffffff;
+                            margin: 0;
+                            text-decoration: none;
+                            padding: 5px 30px 5px 74px;
+                            position: relative;
+                            transition: all .3s ease-in-out;
+                            &:before {
+                                content: '';
+                                width: 59px;
+                                height: 59px;
+                                top: 3px;
+                                left: 3px;
+                                background: url('../images/order-now.jpg')no-repeat;
+                                position: absolute;
+                            }
+                            &:hover {
+                                background: #0a6934;
+                                transition: all .3s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

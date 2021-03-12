@@ -1,0 +1,497 @@
+@media only screen and (min-width: 1901px) and (max-width: 1919px) {}
+
+@media only screen and (max-width: 1900px) {}
+
+@media only screen and (max-width: 1800px) {}
+
+@media only screen and (max-width: 1700px) {}
+
+@media only screen and (max-width: 1600px) {
+    #header-page .banner-slide .sologan img {
+        position: relative;
+        left: 63px;
+        top: -68px;
+        width: 27%;
+    }
+    #page-home .slide_phoreal {
+        margin-left: 184px;
+    }
+    #page-home .slide_phoreal:before {
+        background-size: contain;
+        left: -217px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right {
+        padding-left: 80px;
+    }
+    #page-home .slide_phoreal .wrap__menu .btn_slick {
+        right: 300px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #page-home .slide_phoreal {
+        margin-left: 157px;
+    }
+    #page-home .slide_phoreal:before {
+        background-size: contain;
+        left: -200px;
+    }
+    #page-home .slide_phoreal .wrap__menu .btn_slick {
+        right: 250px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (max-width: 1400px) {
+    #page-home .slide_phoreal {
+        margin-left: 150px;
+    }
+    #page-home .slide_phoreal:before {
+        background-size: contain;
+        left: -195px;
+    }
+}
+
+@media only screen and (max-width: 1368px) {}
+
+@media only screen and (max-width: 1300px) {
+    #header-page .banner-slide .flexslider .text-slide .wrap_text p {
+        font-size: 60px;
+    }
+    #header-page .banner-slide .sologan {
+        display: none;
+    }
+    #header-page .banner-slide .flexslider {
+        width: 100%;
+    }
+    #header-page .banner-slide .flexslider .text-slide {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text::before {
+        display: none;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right {
+        padding-left: 60px;
+    }
+    #page-home .slide_phoreal {
+        margin-left: 15px;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left {
+        width: 42%;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--right {
+        width: 58%;
+        height: 855px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left {
+        width: 40%;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1100px) {
+    #header-page .sticky .header__page .header__page--main .navbar-sticky ul li {
+        margin-right: 70px;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text {
+        padding: 25px 25px 46px 25px;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text p {
+        font-size: 50px;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text p {
+        font-size: 50px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left {
+        top: 0;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item h4 {
+        font-size: 20px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item p {
+        font-size: 18px;
+    }
+    #page-home .slide_phoreal {
+        margin-top: 0;
+        margin-left: 40px;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left {
+        margin-top: 0;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--right {
+        height: 755px;
+    }
+    #page-home .slide_phoreal .wrap__menu .btn_slick {
+        right: 150px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left {
+        width: 33%;
+        padding-right: 0;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__mid {
+        width: 28%;
+        padding: 0;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__right {
+        width: 38%;
+    }
+    #page-home .call_phoreal .call__title h2 {
+        letter-spacing: 10px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title p {
+        letter-spacing: 4px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #header-page {
+        overflow: unset;
+    }
+    #header-page .banner-page img {
+        width: 100%;
+    }
+    /* -----------css button menu-------- */
+    #header-page .sticky .header__page .header__page--button {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        z-index: 999999;
+    }
+    #header-page .sticky .header__page .header__page--button .button-sticky {
+        padding: 7px 10px;
+        border: 0;
+        position: relative;
+        background-color: transparent;
+        outline: none;
+    }
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar {
+        height: 6px;
+        background-color: #ca1f27;
+        margin: 10px 0;
+        position: relative;
+        display: block;
+        transition: all 0.3s;
+    }
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar.top-bar {
+        width: 90px;
+    }
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar.middle-bar {
+        width: 50px;
+    }
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar.bottom-bar {
+        width: 70px;
+    }
+    /* -------------css menu------------ */
+    #header-page .banner-slide {
+        margin-top: 95px;
+    }
+    #header-page .sticky .header__page {
+        margin-top: 90px;
+    }
+    #header-page .sticky .header__page .header__page--main {
+        transform: unset;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-mobile {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        background: rgba(205, 32, 40, 0.5);
+        z-index: 9999;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-mobile .navbar-sticky {
+        background-color: #fef1ee;
+        width: 320px;
+        position: fixed;
+        top: 0;
+        left: -320px;
+        z-index: 99999;
+        height: 100%;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        display: inline-block;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-collapse ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin-top: 120px;
+        height: 0;
+        text-align: right;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-collapse ul li {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(2) {
+        margin-right: 0;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(3) {
+        margin-left: 0;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-collapse ul li a {
+        font-size: 23px;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    /* ---when click button----- */
+    #header-page .sticky .header__page .header__page--main .navbar-mobile.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    #header-page .sticky .header__page .header__page--main .navbar-mobile .navbar-sticky.active {
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    body.show-scroll {
+        overflow: hidden;
+    }
+    /* ----------css logo---------- */
+    #header-page .sticky .logo {
+        padding-left: 0;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    // =========================================================================
+    #page-home .about_phoreal {
+        margin-top: -100px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left {
+        top: 0;
+        width: 100%;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right {
+        padding-left: 0px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    #page-home .slide_phoreal {
+        margin-top: 65px;
+    }
+    #page-home .call_phoreal .call__title h2 {
+        letter-spacing: 6px;
+        font-size: 45px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left {
+        width: 100%;
+        padding-right: 0;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__mid {
+        width: 50%;
+        padding: 0;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__right {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 900px) {}
+
+@media only screen and (max-width: 768px) {
+    #header-page .banner-slide .flexslider .text-slide .wrap_text p {
+        font-size: 40px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item h4 {
+        font-size: 25px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item p {
+        font-size: 23px;
+    }
+    #page-home .slide_phoreal::before {
+        display: none;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left {
+        width: 100%;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content p {
+        margin-bottom: 33px;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--right {
+        display: none;
+    }
+    #page-home .slide_phoreal .wrap__menu {
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        margin-top: 60px;
+    }
+    #page-home .slide_phoreal .wrap__menu .wrap__menu--slide {
+        user-select: all;
+        max-width: 100%;
+    }
+    #footer .footer__pralax .call__title h2 {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 576px) {
+    #header-page .banner-slide .flexslider .text-slide .wrap_text {
+        text-align: center;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text p {
+        font-size: 27px;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order a {
+        line-height: 1.9;
+        padding: 5px 14px 5px 64px;
+        font-size: 20px;
+    }
+    #header-page .banner-slide .flexslider .text-slide .wrap_text .btn_order a::before {
+        width: 42px;
+        height: 42px;
+        background-size: 100% 100%;
+    }
+    #page-home .about_phoreal {
+        margin-top: -70px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item {
+        padding: 15px 40px 10px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item img {
+        max-width: 100%;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item h4 {
+        font-size: 20px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--left .about__left--item p {
+        font-size: 18px;
+    }
+    #page-home .slide_phoreal {
+        margin-top: 55px;
+    }
+    #page-home .slide_phoreal .wrap__menu .btn_slick {
+        display: none;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left .about__left--content h2 {
+        font-size: 50px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right h2 {
+        font-size: 50px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right .homemade {
+        padding-left: 16px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right .homemade::before {
+        width: 77%;
+        height: 73%;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right .homemade h4,
+    #page-home .about_phoreal .wrap__about .wrap_about--right .homemade p {
+        line-height: 1.4;
+    }
+    #page-home .call_phoreal {
+        background-attachment: unset;
+    }
+    #page-home .call_phoreal .call__title {
+        padding: 70px 0;
+    }
+    #page-home .call_phoreal .call__title h2 {
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__mid {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__right {
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .slick-dots {
+        bottom: -30px;
+    }
+    .slick-dots li {
+        background: #db262d;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+    }
+    .slick-dots li button {
+        display: none;
+    }
+    .slick-dots li button::before {
+        display: none;
+    }
+    .slick-dots li.slick-active {
+        background: rgba(219, 38, 45, 0.65);
+    }
+    #footer .footer__pralax .call__title h2 {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #page-home .about_phoreal .wrap__about .wrap_about--right h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+        padding-bottom: 20px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right p {
+        font-size: 18px;
+    }
+    #page-home .about_phoreal .wrap__about .wrap_about--right .homemade h4 {
+        font-size: 30px;
+    }
+    #page-home .slide_phoreal {
+        margin: 55px 15px 0;
+    }
+    #page-home .slide_phoreal .wrap__slide .wrap__slide--left {
+        padding-right: 0;
+    }
+    #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul {
+        margin-top: 15px;
+    }
+    #footer {
+        margin-top: 50px;
+    }
+    #footer .footer__pralax {
+        margin-top: 0;
+    }
+    #footer .footer__pralax .call__title {
+        padding: 55px 0;
+    }
+    #footer .footer__pralax .call__title h2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    #footer .footer__create {
+        padding: 30px 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
