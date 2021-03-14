@@ -4,15 +4,15 @@ jQuery(window).load(function() {
 });
 
 function banner() {
-    if (jQuery(this).width() < 600) {
-        var img_mobile = jQuery('.banner-page').find('img').attr('src');
-        jQuery('.banner-page').css({
+    if (jQuery(this).width() < 769) {
+        var img_mobile = jQuery('.banner__page--image').find('img').attr('src');
+        jQuery('.banner__page--image').css({
             'background-image': 'url(' + img_mobile + ')',
             'background-size': 'cover',
             'background-repeat': 'no-repeat',
             'background-position': 'center center',
-            'min-height': '150px'
+            'min-height': '60vh'
         });
-        jQuery('.banner-page').find('img').css('display', 'none')
+        jQuery('.banner__page--image').find('img').css('display', 'none')
     }
 }

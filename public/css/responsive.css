@@ -22,6 +22,12 @@
     #page-home .slide_phoreal .wrap__menu .btn_slick {
         right: 300px;
     }
+  /*============= HEADER PAGE ======================*/
+    #header-page .banner-page .sologan img {
+        left: 54px;
+        width: 45%;
+    }
+  /*============ PAGE MENU ================*/
 }
 
 @media only screen and (max-width: 1500px) {
@@ -37,6 +43,14 @@
     #page-home .slide_phoreal .wrap__menu .btn_slick {
         right: 250px;
     }
+  /*================ HEADER PAGE ================*/
+    #header-page .banner-page .banner__page--image .wrap_text p {
+        font-size: 60px;
+    }
+  /*============ PAGE MENU ===============*/
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--title h4 {
+        font-size: 50px;
+    }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -47,6 +61,11 @@
     #page-home .slide_phoreal:before {
         background-size: contain;
         left: -195px;
+    }
+  /*========= PAGE MENU ==========*/
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--image img.img-1,
+  #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--image img.img-2 {
+        width: 49.5%;
     }
 }
 
@@ -94,6 +113,19 @@
     #page-home .contact_phoreal .wrap__contact .contact__left {
         width: 40%;
         padding-right: 15px;
+    }
+  /*============ PAGE MENU ==================*/
+    #page-menu .list__tab--menu ul li a {
+        font-size: 18px;
+    }
+
+    #page-menu .list__tab--menu ul li a.active p {
+        font-size: 18px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a {
+        font-size: 18px;
+        max-height: 48px;
     }
 }
 
@@ -163,6 +195,43 @@
 
     #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--title p {
         letter-spacing: 4px;
+    }
+  /*========= Page Menu ================*/
+    #header-page .banner-page .banner__page--image .wrap_text p {
+        font-size: 40px;
+    }
+
+    #header-page .banner-page .banner__page--image .wrap_text .btn_order a {
+        font-size: 17px;
+        padding: 5px 12px 5px 60px;
+    }
+
+    #header-page .banner-page .banner__page--image .wrap_text .btn_order a:before {
+        background-size: 100% 100%;
+        width: 46px;
+        height: 46px;
+    }
+
+    #page-menu .list__tab--menu ul li {
+        width: 32%;
+        margin-bottom: 15px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item {
+        width: 100%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
+        width: 67%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 27%;
+    }
+
+    #page-menu .note__menu .note__menu--2 {
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
@@ -347,6 +416,26 @@
     #page-home .contact_phoreal .wrap__contact .contact__right {
         width: 50%;
     }
+  /*========== PAGE MENU ===============*/
+    #header-page .banner-page {
+        margin-top: 100px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--title h4 {
+        font-size: 45px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
+        width: 55%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 35%;
+    }
+
+    #page-menu .note__menu .note__menu--2 {
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -524,6 +613,26 @@
         font-size: 35px;
         letter-spacing: 5px;
     }
+  /*============= PAGE MENU ==================*/
+    #page-menu .list__tab--menu ul li {
+        width: 49%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item {
+        margin-bottom: 40px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
+        width: 90%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 100%;
+    }
+
+    #page-menu .note__menu .note__menu--2 {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -552,7 +661,25 @@
     #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul {
         margin-top: 15px;
     }
+  /*============ PAGE MENU ==============*/
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--title h4 {
+        font-size: 35px;
+    }
 
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a {
+        font-size: 16px;
+        max-height: 40px;
+        padding: 8px 20px;
+    }
+
+    #page-menu .list__tab--menu ul li a {
+        font-size: 16px;
+    }
+
+    #page-menu .list__tab--menu ul li a.active p {
+        font-size: 16px;
+    }
+  /*========= Footer ============*/
     #footer {
         margin-top: 50px;
     }

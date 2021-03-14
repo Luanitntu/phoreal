@@ -146,4 +146,74 @@
             }
         }
     }
+    .banner-page {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 70px;
+        .sologan {
+            width: 13.2%;
+            position: relative;
+            display: inline-block;
+            img {
+                position: relative;
+                left: 70px;
+                top: 14px;
+            }
+        }
+        .banner__page--image {
+            width: 86.7%;
+            margin-bottom: 0;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            .wrap_text {
+                position: absolute;
+                top: 50%;
+                left: 50px;
+                transform: translateY(-50%);
+                p {
+                    font-size: 69px;
+                    font-family: "Perpetua Titling MT";
+                    color: #ffffff;
+                    line-height: 1.267;
+                    span {
+                        font-weight: bold;
+                    }
+                }
+                .btn_order {
+                    display: flex;
+                    justify-content: flex-start;
+                    text-align: center;
+                    a {
+                        font-size: 22px;
+                        font-family: "HandleGothicBT";
+                        color: #ffffff;
+                        line-height: 2.517;
+                        background: #0f7d40;
+                        border: 2px solid #ffffff;
+                        margin: 0;
+                        text-decoration: none;
+                        padding: 5px 30px 5px 74px;
+                        position: relative;
+                        transition: all .3s ease-in-out;
+                        &:before {
+                            content: '';
+                            width: 59px;
+                            height: 59px;
+                            top: 3px;
+                            left: 3px;
+                            background: url(../images/order-now.jpg) no-repeat;
+                            position: absolute;
+                        }
+                        &:hover {
+                            background: #0a6934;
+                            transition: all .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

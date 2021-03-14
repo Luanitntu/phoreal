@@ -1,0 +1,216 @@
+#page-menu {
+    margin-top: 60px;
+    .list__tab--menu {
+        ul {
+            border: 0;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            li {
+                width: 16%;
+                a {
+                    border: 1px solid #c9c9c9;
+                    border-radius: 0;
+                    font-size: 20px;
+                    font-family: "Perpetua Titling MT";
+                    color: #8f8f8f;
+                    font-weight: bold;
+                    line-height: 1.65;
+                    text-align: center;
+                    text-decoration: none;
+                    background-color: #ffffff;
+                    &.active {
+                        background-color: #ffffff;
+                        p {
+                            font-size: 20px;
+                            font-family: "Perpetua Titling MT";
+                            color: #414141;
+                            font-weight: bold;
+                            line-height: 1.65;
+                            text-align: center;
+                        }
+                    }
+                }
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .list__tab--content {
+        margin-top: 60px;
+        .tab-pane {
+            .tab__cate {
+                .tab__cate--title {
+                    margin-bottom: 25px;
+                    h4 {
+                        font-size: 57px;
+                        font-family: "Perpetua Titling MT";
+                        color: #181818;
+                        line-height: 0.842;
+                        position: relative;
+                        padding-bottom: 22px;
+                        margin-bottom: 0;
+                        &:before {
+                            content: '';
+                            width: 76px;
+                            height: 2px;
+                            bottom: 0;
+                            left: 0;
+                            background: #0f7d40;
+                            position: absolute;
+                        }
+                    }
+                }
+                .tab__cate--image {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    padding: 15px;
+                    background: #e2e2e2;
+                    margin-bottom: 60px;
+                }
+            }
+            .tab__product {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .tab__product--item {
+                    width: 49%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    .product__item--order {
+                        width: 5%;
+                        h4 {
+                            font-size: 19px;
+                            font-family: "Bookman Old Style";
+                            color: #3f3f3f;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            line-height: 1.684;
+                            margin-bottom: 0;
+                        }
+                    }
+                    .product__item--title {
+                        width: 60%;
+                        .name__price {
+                            display: flex;
+                            justify-content: space-between;
+                            .name {
+                                h4 {
+                                    font-size: 19px;
+                                    font-family: "Bookman Old Style";
+                                    color: #3f3f3f;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                    line-height: 1.684;
+                                    margin-bottom: 0;
+                                    span {
+                                        color: #d61f26;
+                                    }
+                                }
+                                p {
+                                    font-size: 19px;
+                                    font-family: "Bookman Old Style";
+                                    color: #3f3f3f;
+                                    line-height: 1.684;
+                                }
+                            }
+                            .price {
+                                p {
+                                    font-size: 19px;
+                                    font-family: "Bookman Old Style";
+                                    color: #3f3f3f;
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                    line-height: 1.684;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+                    .product__item--price {
+                        width: 26%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        a {
+                            position: relative;
+                            font-size: 22px;
+                            font-family: "HandleGothicBT";
+                            color: #ffffff;
+                            line-height: 1.517;
+                            background: #0f7d40;
+                            text-decoration: none;
+                            padding: 10px 20px;
+                            margin-top: -10px;
+                            max-height: 54px;
+                            transition: all .3s ease-in-out;
+                            &:before {
+                                content: '';
+                                width: 4px;
+                                height: 4px;
+                                top: 50%;
+                                left: 0;
+                                transform: translateY(-50%);
+                                background: #ffffff;
+                                position: absolute;
+                            }
+                            &:after {
+                                content: '';
+                                width: 4px;
+                                height: 4px;
+                                top: 50%;
+                                right: 0;
+                                transform: translateY(-50%);
+                                background: #ffffff;
+                                position: absolute;
+                            }
+                            &:hover {
+                                background: #d61f26;
+                                transition: all .3s ease-in-out;
+                            }
+                        }
+                    }
+                    &.vegetarian {
+                        .product__item--order h4,
+                        .product__item--title .name h4,
+                        .product__item--title .price p {
+                            color: #0f7d40;
+                        }
+                    }
+                }
+            }
+            // &.active {
+            //     display: flex;
+            //     flex-direction: column;
+            // }
+        }
+    }
+    .note__menu {
+        margin-top: 60px;
+        text-align: center;
+        .note__menu--1 {
+            p {
+                font-size: 19px;
+                font-family: "Bookman Old Style";
+                color: #0f7d40;
+                font-weight: bold;
+                line-height: 1.684;
+                margin-bottom: 0;
+            }
+        }
+        .note__menu--2 {
+            width: 30%;
+            margin: 0 auto;
+            p {
+                font-size: 19px;
+                font-family: "Bookman Old Style";
+                color: #d61f26;
+                line-height: 1.684;
+                padding: 7px 12px;
+                background: #e2e2e2;
+            }
+        }
+    }
+}
