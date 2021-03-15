@@ -1,0 +1,45 @@
+#page-about {
+    margin-top: 100px;
+    .content__about {
+        .main__about {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .main__about--title {
+                width: 55%;
+                h4 {
+                    font-size: 57px;
+                    font-family: "Perpetua Titling MT";
+                    color: #181818;
+                    line-height: 0.842;
+                    position: relative;
+                    padding-bottom: 22px;
+                    margin-bottom: 35px;
+                    &:before {
+                        content: '';
+                        width: 76px;
+                        height: 2px;
+                        bottom: 0;
+                        left: 0;
+                        background: #0f7d40;
+                        position: absolute;
+                    }
+                }
+                p {
+                    font-size: 19px;
+                    font-family: "Bookman Old Style";
+                    color: #3f3f3f;
+                    line-height: 1.552;
+                    margin-bottom: 25px;
+                }
+            }
+            .main__about--image {
+                width: 43%;
+                margin-top: 66px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

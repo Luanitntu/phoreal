@@ -109,12 +109,6 @@
                                         color: #d61f26;
                                     }
                                 }
-                                p {
-                                    font-size: 19px;
-                                    font-family: "Bookman Old Style";
-                                    color: #3f3f3f;
-                                    line-height: 1.684;
-                                }
                             }
                             .price {
                                 p {
@@ -127,6 +121,12 @@
                                     margin-bottom: 0;
                                 }
                             }
+                        }
+                        p {
+                            font-size: 19px;
+                            font-family: "Bookman Old Style";
+                            color: #3f3f3f;
+                            line-height: 1.684;
                         }
                     }
                     .product__item--price {
@@ -146,7 +146,7 @@
                             margin-top: -10px;
                             max-height: 54px;
                             transition: all .3s ease-in-out;
-                            &:before {
+                            &.cart_desktop:before {
                                 content: '';
                                 width: 4px;
                                 height: 4px;
@@ -156,7 +156,7 @@
                                 background: #ffffff;
                                 position: absolute;
                             }
-                            &:after {
+                            &.cart_desktop:after {
                                 content: '';
                                 width: 4px;
                                 height: 4px;
@@ -169,6 +169,9 @@
                             &:hover {
                                 background: #d61f26;
                                 transition: all .3s ease-in-out;
+                            }
+                            &.cart_mobile {
+                                display: none;
                             }
                         }
                     }

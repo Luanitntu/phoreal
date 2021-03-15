@@ -127,6 +127,26 @@
         font-size: 18px;
         max-height: 48px;
     }
+  /*=========== PAGE MENU ==============*/
+    #header-page .banner-page .sologan {
+        display: none;
+    }
+
+    #header-page .banner-page .banner__page--image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+  /*============ PAGE ABOUT ============*/
+    #page-about .content__about .main__about .main__about--title {
+        width: 100%;
+    }
+
+    #page-about .content__about .main__about .main__about--image {
+        width: 100%;
+        margin-top: 40px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -478,10 +498,62 @@
         user-select: all;
         max-width: 100%;
     }
+  /*=================== PAGE MENU ===============*/
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
+        width: 60%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 23%;
+    }
 
     #footer .footer__pralax .call__title h2 {
         font-size: 40px;
         letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #page-menu .list__tab--menu ul li a.active p {
+        font-size: 15px;
+    }
+
+    #page-menu .list__tab--menu ul li a {
+        font-size: 15px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--image img.img-1 {
+        width: 100%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--image img.img-2 {
+        display: none;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 30%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title p {
+        font-size: 17px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a {
+        font-size: 17px;
+        max-height: 45px;
+    }
+
+    #page-menu .note__menu .note__menu--2 {
+        width: 90%;
+    }
+
+    #footer .footer__pralax {
+        background-attachment: unset;
+    }
+
+    #footer .footer__pralax .call__title h2 {
+        font-size: 30px;
+        letter-spacing: 7px;
     }
 }
 
@@ -506,6 +578,48 @@
         background-size: 100% 100%;
     }
 
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar.top-bar {
+        width: 60px;
+    }
+
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar.bottom-bar {
+        width: 60px;
+    }
+
+    #header-page .sticky .header__page .header__page--button .button-sticky .icon-bar {
+        height: 4px;
+        margin: 10px;
+    }
+
+    #header-page .sticky .header__page .header__page--logo {
+        text-align: center;
+    }
+
+    #header-page .sticky .header__page .header__page--logo img {
+        width: 80%;
+    }
+
+    #header-page .sticky .header__page .header__page--main .navbar-collapse ul li {
+        text-align: left;
+        margin-left: 32px;
+    }
+
+    #header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(3) {
+        margin-left: 32px;
+    }
+
+    #header-page .sticky .header__page .header__page--main .navbar-mobile .navbar-sticky {
+        width: 280px;
+    }
+
+    #header-page .sticky .header__page {
+        margin-top: 70px;
+    }
+
+    #header-page .banner-page {
+        margin-top: 73px;
+    }
+  /*===================== PAGE HOME ==============*/
     #page-home .about_phoreal {
         margin-top: -70px;
     }
@@ -613,6 +727,10 @@
         font-size: 35px;
         letter-spacing: 5px;
     }
+  /*================== PAGE ABOUT =====================*/
+    #page-about {
+        margin-top: 50px;
+    }
   /*============= PAGE MENU ==================*/
     #page-menu .list__tab--menu ul li {
         width: 49%;
@@ -623,19 +741,61 @@
     }
 
     #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
-        width: 90%;
+        width: 78%;
     }
 
     #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
-        width: 100%;
+        width: 11%;
     }
 
     #page-menu .note__menu .note__menu--2 {
         width: 100%;
     }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_desktop {
+        display: none;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile {
+        display: block;
+        width: 54px;
+        height: 54px;
+        position: relative;
+        max-height: 54px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_destop:after,
+  #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_desktop:before {
+        display: none;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile:before {
+        content: '';
+        width: 48px;
+        height: 48px;
+        top: 3px;
+        left: 3px;
+        background: url(../images/order-now.jpg) no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+
+    #page-menu .note__menu .note__menu--2 p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
+  /*=============== HEADER ================*/
+    #header-page .sticky .header__page .header__page--main .navbar-collapse ul li {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    #header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(3) {
+        margin-left: 15px;
+    }
+  /*============ PAGE HOME */
     #page-home .about_phoreal .wrap__about .wrap_about--right h2 {
         font-size: 40px;
         margin-bottom: 25px;
@@ -662,6 +822,10 @@
         margin-top: 15px;
     }
   /*============ PAGE MENU ==============*/
+    #page-menu .list__tab--content {
+        margin-top: 40px;
+    }
+
     #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--title h4 {
         font-size: 35px;
     }
@@ -676,8 +840,46 @@
         font-size: 16px;
     }
 
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item {
+        margin-bottom: 10px;
+    }
+
     #page-menu .list__tab--menu ul li a.active p {
         font-size: 16px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--order h4,
+  #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title .name__price .name h4,
+  #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title .name__price .price p {
+        font-size: 18px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title p {
+        font-size: 16px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--title {
+        width: 75%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
+        width: 13%;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile {
+        display: block;
+        width: 48px;
+        height: 48px;
+        position: relative;
+        max-height: 50px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile:before {
+        content: '';
+        width: 42px;
+        height: 42px;
+        top: 3px;
+        left: 3px;
     }
   /*========= Footer ============*/
     #footer {
@@ -699,5 +901,23 @@
 
     #footer .footer__create {
         padding: 30px 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile {
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        max-height: 50px;
+    }
+
+    #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price a.cart_mobile:before {
+        content: '';
+        width: 39px;
+        height: 39px;
+        top: 3px;
+        left: 3px;
     }
 }
