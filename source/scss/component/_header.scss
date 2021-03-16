@@ -83,6 +83,14 @@
         .flexslider {
             width: 76%;
             margin-bottom: 0;
+            .img-slide {
+                img.desktop {
+                    display: block;
+                }
+                img.mobile {
+                    display: none;
+                }
+            }
             .text-slide {
                 position: absolute;
                 top: 50%;

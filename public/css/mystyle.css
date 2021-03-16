@@ -145,6 +145,14 @@ body {
     margin-bottom: 0;
 }
 
+#header-page .banner-slide .flexslider .img-slide img.desktop {
+    display: block;
+}
+
+#header-page .banner-slide .flexslider .img-slide img.mobile {
+    display: none;
+}
+
 #header-page .banner-slide .flexslider .text-slide {
     position: absolute;
     top: 50%;

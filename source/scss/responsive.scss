@@ -718,6 +718,18 @@
     #header-page .sticky .header__page .header__page--main .navbar-sticky ul li:nth-child(3) {
         margin-left: 15px;
     }
+    #header-page .banner-slide {
+        margin-top: 70px;
+    }
+    #header-page .banner-slide .flexslider .img-slide img.desktop {
+        display: none;
+    }
+    #header-page .banner-slide .flexslider .img-slide img.mobile {
+        display: block;
+    }
+    #header-page .banner-slide .flexslider .text-slide {
+        width: 90%;
+    }
     /*============ PAGE HOME */
     #page-home .about_phoreal .wrap__about .wrap_about--right h2 {
         font-size: 40px;
@@ -738,6 +750,10 @@
     }
     #page-home .contact_phoreal .wrap__contact .contact__left .contact__left--info .left__info--social ul {
         margin-top: 15px;
+    }
+    #page-home .call_phoreal .call__title h2 {
+        letter-spacing: 0px;
+        font-size: 30px;
     }
     /*============ PAGE MENU ==============*/
     #page-menu .list__tab--content {
