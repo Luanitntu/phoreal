@@ -70,6 +70,17 @@
     #page-menu .list__tab--content .tab-pane .tab__cate .tab__cate--image img.img-2 {
         width: 49.5%;
     }
+    /*======= PAGE GALLERY =========*/
+    #page-gallery .gallery__image .wrap__item {
+        flex-direction: column;
+        align-items: center;
+    }
+    #page-gallery .gallery__image .wrap__item .item__image {
+        width: 50%;
+    }
+    #page-gallery .gallery__image .wrap__item .item__image img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1368px) {}
@@ -222,6 +233,20 @@
     #page-menu .note__menu .note__menu--2 {
         width: 50%;
         margin: 0 auto;
+    }
+    /*============= PAGE CONTACT ==================*/
+    #page-contact .main_contact .wrap__contact .contact__left {
+        width: 40%;
+    }
+    #page-contact .main_contact .wrap__contact .contact__right {
+        width: 55%;
+        margin-top: 20px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--title h3 {
+        font-size: 50px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--title p {
+        letter-spacing: 4px;
     }
 }
 
@@ -398,6 +423,17 @@
     #page-menu .note__menu .note__menu--2 {
         width: 65%;
     }
+    /*============== PAGE CONTACT ====================*/
+    #page-contact {
+        margin: 84px 0 60px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left {
+        width: 100%;
+    }
+    #page-contact .main_contact .wrap__contact .contact__right {
+        width: 100%;
+        margin-top: 35px;
+    }
 }
 
 @media only screen and (max-width: 900px) {}
@@ -440,6 +476,10 @@
     }
     #page-menu .list__tab--content .tab-pane .tab__product .tab__product--item .product__item--price {
         width: 23%;
+    }
+    /*=========== PAGE GALLERY ==================*/
+    #page-gallery .gallery__image .wrap__item .item__image {
+        width: 100%;
     }
     #footer .footer__pralax .call__title h2 {
         font-size: 40px;
@@ -663,6 +703,10 @@
     #page-menu .note__menu .note__menu--2 p {
         font-size: 16px;
     }
+    /*=========== PAGE GALLERY =================*/
+    #page-gallery {
+        margin: 60px 0 60px;
+    }
 }
 
 @media only screen and (max-width: 414px) {
@@ -743,6 +787,21 @@
         height: 42px;
         top: 3px;
         left: 3px;
+    }
+    /*============== PAGE CONTACT ======================*/
+    #page-contact {
+        margin: 70px 0 60px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--title h3 {
+        font-size: 42px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--top p,
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--mid p,
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--bottom p {
+        font-size: 18px;
+    }
+    #page-contact .main_contact .wrap__contact .contact__left .contact__left--top a {
+        font-size: 18px;
     }
     /*========= Footer ============*/
     #footer {

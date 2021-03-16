@@ -1051,6 +1051,169 @@ body {
     width: 100%;
 }
 
+#page-gallery {
+    margin: 40px 0 70px;
+}
+
+#page-gallery .gallery__image .wrap__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image {
+    margin-bottom: 11px;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image a {
+    display: inline-block;
+    position: relative;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image a:before {
+    opacity: 0;
+    content: '';
+    width: 54px;
+    height: 54px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url("../images/plus-hover.png") no-repeat;
+    background-position: center center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    transition: all .3s ease-in-out;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image a:after {
+    opacity: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(15, 125, 64, 0.3);
+    position: absolute;
+    transition: all .3s ease-in-out;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image a:hover:before {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+#page-gallery .gallery__image .wrap__item .item__image a:hover:after {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+#page-contact {
+    margin: 120px 0 60px;
+}
+
+#page-contact .main_contact .wrap__contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left {
+    width: 35%;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--title h3 {
+    font-size: 57px;
+    font-family: "Perpetua Titling MT";
+    color: #181818;
+    line-height: 0.842;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--title h3:before {
+    content: '';
+    width: 70px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: #0f7d40;
+    position: absolute;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--title p {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #0f7d40;
+    text-transform: uppercase;
+    line-height: 2.5;
+    letter-spacing: 7px;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--top,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--mid,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--bottom {
+    margin-bottom: 25px;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--top h4,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--mid h4,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--bottom h4 {
+    font-size: 20px;
+    font-family: "Bookman Old Style";
+    color: #181818;
+    text-transform: uppercase;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--top a {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 1.842;
+    text-decoration: none;
+}
+
+#page-contact .main_contact .wrap__contact .contact__left .contact__left--top p,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--mid p,
+      #page-contact .main_contact .wrap__contact .contact__left .contact__left--bottom p {
+    font-size: 19px;
+    font-family: "Bookman Old Style";
+    color: #3f3f3f;
+    line-height: 1.842;
+    margin-bottom: 0;
+}
+
+#page-contact .main_contact .wrap__contact .contact__right {
+    width: 60%;
+    margin-top: 20px;
+}
+
+#page-contact .main_contact .wrap__contact .contact__right .contact__right--map {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#page-contact .main_contact .wrap__contact .contact__right .contact__right--map:before {
+    content: '';
+    width: 104%;
+    height: 106%;
+    left: -2%;
+    top: -3.5%;
+    background: #eee8dd;
+    position: absolute;
+    z-index: -1;
+}
+
+#page-contact .main_contact .wrap__contact .contact__right .contact__right--map iframe {
+    width: 100%;
+    height: 390px;
+}
+
 #footer {
     margin-top: 40px;
 }
